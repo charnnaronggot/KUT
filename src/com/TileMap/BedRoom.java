@@ -25,7 +25,7 @@ public class BedRoom extends GameState {
         try {
             image = new BufferedImage(Main.WIDTH,Main.HEIGHT,BufferedImage.TYPE_INT_RGB);
             g = (Graphics2D) image.getGraphics() ;
-            bg = new Background("/Resource/SKELD_MAP.jpg" , 2);
+            bg = new Background("/Resource/preview_628.png" , 2);
 
           tileMap = new TileMap("/MAMMAI/src/Resource/testmap.txt" , 32 );
           tileMap.loadTile("/MAMMAI/src/Resource/Key.gif");
